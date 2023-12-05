@@ -4,7 +4,8 @@ This Python script allows you to decompress Zstandard (Zstd) compressed PGN file
 
 ## Overview
 
-This project provides a Python script to decompress large Zstd-compressed PGN files. It utilizes the Zstandard compression library and can be run from the command line. 
+This project provides a Python script to decompress large Zstd-compressed PGN files. It utilizes the Zstandard compression library and can be run from the command line. Works on databases from lichess.org, chess.com and many others. Max file size: 1gb.
+NOTE: Uncompressed files are around 5-6 thimes the compressed file. Make sure you have enough space accordingly.
 
 ## Requirements
 
@@ -25,4 +26,4 @@ This project provides a Python script to decompress large Zstd-compressed PGN fi
 
    ```bash
    python unzipper.py
-   
+
