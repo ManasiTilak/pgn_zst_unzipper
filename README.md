@@ -16,7 +16,7 @@ NOTE: Uncompressed files are around 5-6 thimes the compressed file. Make sure yo
 
 1. Clone the repository or download the script.
 
-2. Ensure Python and the Zstandard library are installed on your system.
+2. Ensure Python and the Zstandard library are installed on your system. Use `pip install -r requirements.txt` to install if needed.
 
 3. Open a terminal or command prompt and navigate to the directory containing the script.
 
